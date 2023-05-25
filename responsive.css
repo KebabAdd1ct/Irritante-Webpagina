@@ -1,0 +1,63 @@
+@media only screen and (max-width: 900px) {
+    /*Only for iPhone 12 Pro at 100% fully zoomed out*/
+    [class*="werk"] {
+      width: 100%;
+    }
+    body{
+     max-width: 400px;
+     max-height: 100px;
+    }
+    #storyleft{
+     max-width: 400px;
+    }
+    #storyright{
+     width: 400px;
+     height: 1200px;
+     left: 95%;
+    }
+    h1 p{
+     float: none; width: 100%;
+     width: 10vw;
+    }
+    #maintext{
+        width: 250px;
+    }
+    #text{
+        width: 250px;
+        top: -90%;
+    }
+    #bottomtext{
+        width: 250px;
+        top: 300%;
+    }
+    #ios{
+        width: 130px;
+        height: 100px;
+        left: -180%;
+    }
+    #android{
+        width: 130px;
+        height: 100px;
+        top: 288%;
+        left: -200%;
+    }
+    #phone{
+     width: 275px;
+     left: 270%;
+     top: 40%;
+    }
+    #sip_logo{
+     width: 50px;
+     height: 200px;
+    }
+  }
+                   
+
+
+
+
+
+
+
+
+        
