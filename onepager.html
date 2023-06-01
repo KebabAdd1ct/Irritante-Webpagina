@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-
-    </style>
+        <script src="onepager.js" defer></script>   
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,9 +11,17 @@
     <img src="download-android.svg" alt="Android app on Google play" id="android">
     <img src="download-ios.svg" alt="Download on the App Store" id="ios">
     <img src="logo.svg" alt="sip_logo" id="sip_logo">
+
+    <audio src="RIZZSoundEffect.mp3" id="sound1" loop></audio>
+    <audio src="Swag like Ohio (Ohio ahh drill remix).mp3" id="sound2" loop></audio>
+    <audio src="sound effect goofy ah 2.mp3" id="sound3" loop></audio>
+    <audio src="21st Century Humor in 176 seconds 17.mp3" id="sound4" loop></audio>
+    <audio src="Very HIGH PITCH Sound [Warning Very LOUD].mp3" id="sound5" loop></audio>
+    <audio src="Legend zyzz hardstyle EARRAPE.mp3" id="sound6" loop></audio>
+
   </head>
   <body>
-    <body>
+    <body onload="changeColor()" onclick="goToYouTube()">
       <div id="iphone" class="werk"></div>
 
       <div id="maintext" class="werk"><h1>Daily tappable tech news and stories</h1></div>
@@ -24,17 +30,30 @@
         <p>Every weekday Sip surfaces the most interesting and important tech stories of the day,
          from breaking news to profiles on favorite tech products.</p>
       </div>
+      <div id="text1" class="werk">
+        <p>If you're seeing this it's your fault the website looks like shit</p>
+      </div>
+      <div id="text2" class="werk">
+        <p>If you're reading this ur dumb</p>
+      </div>
+      <div id="text2" class="werk">
+        <p>My format is superior!</p>
+      </div>
+
+      <div id="bottomtext" class="werk" onclick="goToYouTube()"><p>Sip News is built by Product Hunt and its awesome community.</p></div>
+
+      <div id="storyleft" class="werk" onclick="goToYouTube()"></div>
   
-      <div id="bottomtext" class="werk"><p>Sip News is built by Product Hunt and its awesome community.</p></div>
+      <div id="storyrightt" class="werk"  onclick="goToYouTube()"></div>
 
-      <div id="storyleft" class="werk"></div>
-  
-      <div id="storyright" class="werk"></div>
+      <div id="android" class="werk" onclick="goToSomewhereElse()"></div>
 
-      <div id="android" class="werk"></div>
+      <div id="ios" class="werk" onclick="goToYouTube()"></div>
 
-      <div id="ios" class="werk"></div>
+      <div id="sip_logo" class="werk" onclick="goToYouTube()"></div>
 
-      <div id="sip_logo" class="werk"></div>
+      <button id="button" class="button button1 sound-button" onclick="startColorChange(); playSounds(); changePicture(); showPopup(); lockTab()">P-press me</button>
+
+
   </body>
-</html>
+</html> 
